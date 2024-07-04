@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Ana Machado
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+#first_name: Shiung Wu
+#last_name: Chien
 
 # Status emoji
 status:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Associate Business Consultant
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,29 +31,21 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:anarnmachado@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/machadexx
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/machadexx
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Science
+  - Machine & Deep Learning
+  - Problem solving
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: Tecnologias de Informação, Web e Multimédia (TIWM)
+    institution: IPMAIA
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
