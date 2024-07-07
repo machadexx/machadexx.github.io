@@ -5994,6 +5994,7 @@ textarea.form-control-lg {
   color: #000;
 }
 
+
 .spinner-grow,
 .spinner-border {
   display: inline-block;
@@ -6049,6 +6050,64 @@ textarea.form-control-lg {
   --bs-spinner-width: 1rem;
   --bs-spinner-height: 1rem;
 }
+
+.containerTest {
+	padding: 2rem;
+}
+
+.sliderTest-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.sliderTest {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sliderTest::-webkit-scrollbar {
+	display: none;
+}
+
+.sliderTest img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.sliderTest-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.sliderTest-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color:#556657 ;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.sliderTest-nav a:hover {
+	opacity: 1;
+  background-color:#86a38a 
+}
+
 
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
